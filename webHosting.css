@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header {
+    display: inline-block;
+    background-color: aqua;
+    width: 1096px;
+    margin: 0px auto;
+}
+
+header #hiring i {
+    display: inline-block;
+    cursor: pointer;
+    padding: 2px 2px;
+    background-color: orange;
+}
+
+header span i:hover {
+    font-size: large;
+}
+
+header #cross {
+    display: inline-block;
+    margin-right: 0px;
+    background-color: red;
+    padding: 0px 6px;
+    position: fixed;
+    top: 0px;
+    right: 2px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+#navBar {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    /* position: absolute; */
+    /* left: 30%; */
+}
+
+#navBar li {
+    margin: 0px 5px;
+}
